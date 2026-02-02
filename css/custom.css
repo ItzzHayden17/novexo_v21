@@ -1,0 +1,108 @@
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #2c91fd;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color : white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link::after {
+background: var(--purple);
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-link::after {
+    background: var(--purple);
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-link {
+    color: var(--purple);
+}
+
+.services-inner-box::after {
+    background: var(--indigo);
+}
+
+.hvr-bounce-to-top::before {
+    background: var(--indigo);
+}
+
+#logo {
+    width: 100px;
+}
+
+.learn_btn {
+    background: var(--purple);
+}
+
+.sim-btn {
+    background: var(--purple);
+}
+
+.right-box-pro::before {
+    background: var(--purple);
+}
+
+.filter-button-group button.active {
+    background: var(--purple);
+}
+
+.gallery-list .img-overlay {
+    background: #6e42c163;
+}
+
+.post-box .date {
+    background: var(--purple);
+}
+
+.our-team .pic {
+    border-bottom: 5px solid var(--purple);
+}
+
+.our-team .title {
+    color: var(--purple);
+}
+
+.our-team .social li a {
+    border: 1px solid var(--purple);
+    color: var(--purple);
+}
+
+.pricingTable .title {
+    color: var(--purple);
+}
+
+
+.our-team .pic img {
+    height: 255px;
+    object-fit: cover;
+}
